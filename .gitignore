@@ -2,8 +2,8 @@
 /bin/
 /out/
 /main/
-/.idea/
-/target/
 simple.iml
 .classpath
 .project
+.idea/
+target/
