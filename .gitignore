@@ -1,8 +1,9 @@
 /.metadata/
 /bin/
 /out/
+/main/
+/.idea/
+/target/
 simple.iml
 .classpath
 .project
-/main/
-/.idea/
