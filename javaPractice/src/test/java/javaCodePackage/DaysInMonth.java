@@ -12,14 +12,15 @@ public class DaysInMonth {
                 number_Of_DaysInMonth = 31;
                 break;
             case 2:
+
                 MonthOfName = "February";
-                number_Of_DaysInMonth = 31;
                 if ((year % 400 == 0) || (year % 4 == 0) && (year % 100 != 0)) {
                     number_Of_DaysInMonth = 29;
                 } else {
                     number_Of_DaysInMonth = 28;
                 }
                 break;
+
             case 3:
                 MonthOfName = "March";
                 number_Of_DaysInMonth = 31;
@@ -61,6 +62,7 @@ public class DaysInMonth {
                 number_Of_DaysInMonth = 31;
         }
         System.out.print(MonthOfName + " " + year + " has " + number_Of_DaysInMonth + " days\n");
+
     }
 }
 
