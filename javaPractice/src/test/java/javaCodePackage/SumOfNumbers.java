@@ -3,7 +3,7 @@ package javaCodePackage;
 public class SumOfNumbers {
     public static void main(String[] args) {
 
-        int index, number = 5, sum = 0;
+        int index, number = 7, sum = 0;
 
         System.out.println("The first number natural numbers are : " + number);
 
@@ -28,3 +28,16 @@ public class SumOfNumbers {
         return sum;
     }
 }
+/*Write a Java program to display n terms of natural numbers and their sum.
+Test Data
+Input number: 7
+OutPut :The first number natural numbers are : 7
+1
+2
+3
+4
+5
+6
+7
+The Sum of Natural Number upto 7 terms : 28
+The Sum of Natural Number upto 7 terms : 28*/
