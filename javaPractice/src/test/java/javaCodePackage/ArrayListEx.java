@@ -28,7 +28,6 @@ public class ArrayListEx {
             System.out.println(element);
         }
 
-
     }
 }
 
@@ -37,7 +36,15 @@ public class ArrayListEx {
 // [Red, Green, Yellow, White, Black]
 //List after reversing :
 //[Black, White, Yellow, Green, Red]
+
 //Write a Java program to remove the third element from an array list.
 //List after removing the element :
 //[Black, White, Green, Red]
-//Write a Java program to iterate through all elements in an array list..
+
+//Write a Java program to iterate through all elements in an array list.
+//Print the list
+//Black
+//White
+//Green
+//Red
+
