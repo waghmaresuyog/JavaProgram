@@ -12,13 +12,23 @@ public class ArrayListEx {
         colorList.add("Yellow");
         colorList.add("White");
         colorList.add("Black");
+
         System.out.println("List before reversing:\n " + colorList);
         //reversing the array list use below code
         Collections.reverse(colorList);
         System.out.println("List after reversing :\n" + colorList);
+
         // Remove the third element from the list. in this case use the index of list.
         colorList.remove(2);
         System.out.println("List after removing the element :\n" + colorList);
+
+        // Print the list
+        System.out.println("Print the list");
+        for(String element:colorList){
+            System.out.println(element);
+        }
+
+
     }
 }
 
@@ -30,3 +40,4 @@ public class ArrayListEx {
 //Write a Java program to remove the third element from an array list.
 //List after removing the element :
 //[Black, White, Green, Red]
+//Write a Java program to iterate through all elements in an array list..
