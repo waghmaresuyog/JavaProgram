@@ -28,6 +28,15 @@ public class ArrayListEx {
             System.out.println(element);
         }
 
+        System.out.println("Original array list: " + colorList);
+        String new_color = "White";
+        colorList.set(0,new_color);
+        System.out.println("After replacing array list: " + colorList);
+
+        //using for loop print the element of an array list
+        int no_of_elements = colorList.size();
+        for (int index = 0; index < no_of_elements; index++)
+            System.out.println(colorList.get(index));
     }
 }
 
@@ -48,3 +57,9 @@ public class ArrayListEx {
 //Green
 //Red
 
+//Original array list: [Black, White, Green, Red]
+//After replacing array list: [White, White, Green, Red]
+//White
+//White
+//Green
+//Red
