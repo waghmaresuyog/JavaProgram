@@ -16,6 +16,7 @@ public class StarPatternOne {
         }
     }
 }
+//Write a Java program to generate the following * triangles.
 //Output:
 /*
  *****
