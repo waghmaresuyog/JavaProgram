@@ -27,3 +27,15 @@ public class PatternOne {
         patternOne(totalNumber);
     }
 }
+//Output:
+/*
+1
+22
+333
+4444
+1
+22
+333
+4444
+55555
+* */
